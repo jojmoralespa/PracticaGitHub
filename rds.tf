@@ -1,3 +1,4 @@
+# Creación de Base de datos RDS
 resource "aws_db_instance" "default" {
   identifier             = "reto-rds"
   allocated_storage      = 20
