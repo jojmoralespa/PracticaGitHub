@@ -8,6 +8,8 @@ resource "aws_vpc" "vpc_reto" {
   }
 }
 
+#comentario
+
 resource "aws_subnet" "subnet1_vpc_reto" {
   vpc_id            = aws_vpc.vpc_reto.id
   cidr_block        = "10.0.1.0/24"
